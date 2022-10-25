@@ -1,13 +1,12 @@
 # [Validação de Formulário](https://amandavsadev.github.io/formValidacao-JS/) | <img align="center" alt="Amanda-HTML" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">HTML, <img align="center" alt="Amanda-CSS" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">CSS e <img align="center" alt="Amanda-Js" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">JavaScript.
 ---
 ## :page_facing_up: Sobre o Projeto
-- Descrição
-- Descrição
-  - Descrição
+- A intenção inicial do projeto é criar uma ponte para que as pessoas possam me contatar de forma mais rápida através do e-mail, além de colocar em prática meus conhecimentos em JavaScript.
+- O projeto foi baseado no meu portfólio, vocês podem encontrá-lo <a href="https://github.com/amandavsadev/mini-portfolio">clicando aqui</a>.
 ---
 ## :framed_picture: Imagem do Projeto
 
-![imagem-projeto-final](URL da Imagem)
+![imagem-projeto-final](img-projeto.png)
 
 ---
 ## Tecnologias utilizadas
