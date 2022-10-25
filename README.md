@@ -38,4 +38,4 @@
    
   ## 📝 Licença
 
-   O projeto o possui a licença _MIT_, veja o arquivo [LICENÇA](LICENSE) para mais informações.
+   O projeto o possui a licença _MIT_, veja o arquivo [LICENÇA](license) para mais informações.
