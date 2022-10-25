@@ -14,7 +14,7 @@
   * [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
   * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 ---
-## :man_technologist:  Autor
+## :woman_technologist:  Autora
 
 <table class="author">
   <tr>
