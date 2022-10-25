@@ -1,0 +1,98 @@
+body {
+    background-image: url(../img/fundo.gif);
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    font-family: 'VT323', monospace;
+    color: #f3f3f3;
+    font-size: 18px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    border-radius: 50px;
+    border: 3px solid #02d08f;
+    width: 90px;
+    height: 90px;
+    margin: 10px auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.gif {
+    width: 15px;
+}
+
+fieldset {
+    border: 2px solid #e126d9;
+    border-radius: 10px;
+    background: hsl(207, 44%, 5%);;
+}
+
+.form-label {
+    margin: 15px 0 0 15px;
+}
+
+#email,
+#nomeSobrenome,
+#assunto {
+    margin: 5px 15px 0 15px;
+    width: 300px;
+    height: 23px;
+    background-color: #262626;
+    border: none;
+    border-top: 1px solid #5fa0fe;
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 13px;
+}
+
+#mensagem {
+    margin: 5px 15px 0px 15px;
+    height: 150px;
+    background-color: #262626;
+    border: none;
+    border-top: 1px solid #5fa0fe;
+    border-radius: 5px;
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 13px;
+}
+
+
+#btn {
+    width: 310px;
+    margin: 15px auto;
+    padding: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'VT323', monospace;
+    border: 1px solid #02d08f;
+    border-radius: 8px;
+    background: transparent;
+    color: #f3f3f3;
+    transition: 0.3s;
+}
+
+#btn:hover {
+    color: #02d08f;
+}
+
+@media screen and (min-width: 1260px) {
+    body {
+        background-size: 100%;
+    }
+}

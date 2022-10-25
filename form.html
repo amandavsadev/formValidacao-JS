@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contate-me! | Amanda Amorim</title>
+
+    <!--FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/img/favicon-32x32.png" type="image/x-icon">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="validacao.js"></script>
+</head>
+
+<body>
+    <div>
+        <fieldset>
+            <form action="https://formsubmit.co/cfd13ad2b821fd988e0bcbb7f4a3978b" method="POST" name="form1">
+                
+                <img src="assets/img/foto-perfil.jpg" alt="" class="img">
+
+                <h1> <img src="assets/img/star.gif" class="gif"> Contate-me! <img src="assets/img/star.gif" class="gif"></h1>
+
+                <label class="form-label" for="nomeSobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomeSobrenome" name="nome" placeholder="Fulano da Silva" required>
+
+                <label class="form-label" for="email">E-mail
+                </label>
+                <input type="email" id="email" name="email" placeholder="email@dominio.com" required>
+
+                <label class="form-label" for="assunto">Assunto</label>
+                <input type="text" name="assunto" id="assunto" placeholder="ex.: Sugestão para projeto" required>
+
+                <label class="form-label" for="mensagem">Mensagem</label>
+                <textarea id="mensagem" cols="30" rows="9" name="texto" required placeholder="Digite sua mensagem aqui =)"></textarea>
+
+                <input type="submit" id="btn" value="Enviar" onclick="return validar()">
+
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://amandavsadev.github.io/formValidacao-JS/">
+            </form>
+        </fieldset>
+        <script src="assets/js/validacao.js"></script>
+</body>
+</html>
